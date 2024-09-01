@@ -1,0 +1,59 @@
+.card {
+    border: 1px solid #ddd;          /* Adds a light gray border around the card */
+    border-radius: 8px;              /* Rounds the corners of the card */
+    overflow: hidden;                /* Ensures content doesn't spill out of the card */
+    margin: 10px;                    /* Adds some space around each card */
+    width: 250px;                    /* Sets a fixed width for each card */
+    text-align: center;              /* Centers the content within the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Adds a subtle shadow for depth */
+    transition: transform 0.2s;      /* Adds a smooth transition effect for hover */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);     /* Slightly lifts the card when hovered */
+  }
+  
+  .card-image {
+    width: 100%;                     /* Makes the image span the full width of the card */
+    height: 150px;                   /* Fixes the height of the image */
+    object-fit: cover;               /* Ensures the image covers the entire area without distortion */
+  }
+  
+  .card-content {
+    padding: 15px;                   /* Adds padding inside the card content area */
+    background-color: #fff;          /* Sets a white background for the content */
+  }
+  
+  .card-title {
+    font-size: 1.5em;                /* Increases the font size for the title */
+    margin: 0;                       /* Removes default margin from the title */
+    color: #333;                     /* Sets a dark gray color for the title */
+  }
+  
+  .card-description {
+    font-size: 1em;                  /* Sets a standard font size for the description */
+    color: #666;                     /* Sets a lighter gray color for the description */
+    margin-top: 10px;                /* Adds space above the description */
+    line-height: 1.5;                /* Improves readability by increasing line height */
+  }
+  
+  .card-footer {
+    padding: 10px 15px;              /* Adds padding to the footer area */
+    background-color: #f9f9f9;       /* Sets a light gray background for the footer */
+    border-top: 1px solid #ddd;      /* Adds a border at the top of the footer */
+  }
+  
+  .cta-button {
+    background-color: #007bff;       /* Sets a blue background for the button */
+    color: white;                    /* Makes the button text white */
+    border: none;                    /* Removes the default border */
+    padding: 10px 20px;              /* Adds padding inside the button */
+    border-radius: 4px;              /* Rounds the corners of the button */
+    cursor: pointer;                 /* Changes the cursor to a pointer on hover */
+    margin-top: 10px;                /* Adds space above the button */
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;       /* Darkens the button when hovered */
+  }
+  
